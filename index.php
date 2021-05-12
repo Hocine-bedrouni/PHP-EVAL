@@ -1,12 +1,40 @@
 <?php
-include 'Views/header.php';
-$title = 'connexion BDD record';
-//include $_SERVER['DOCUMENT_ROOT'].'/models/db.php';
-$r = "3";
+include './Views/header.php';
+$title = "Page d'accueil";
+require "./models/connexion_Bdd.php";
+
 ?>
-<body>
-
-<a href="../Views/db.php?id=<?php echo $r['disc_id']; ?>"
 
 
-</body>
+<img src="./assets/img/vinil-record.png" alt="vinil-record">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+include './views/footer.php';
+?>
