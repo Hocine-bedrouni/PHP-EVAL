@@ -1,4 +1,5 @@
 <?php
+
 try {
     $db = new PDO('mysql:host=localhost;charset=utf8;dbname=record', 'root','admin');
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

@@ -1,6 +1,6 @@
 <?php
+$title = "Velvet record";
 include './Views/header.php';
-$title = "Page d'accueil";
 require "./models/connexion_Bdd.php";
 
 ?>
