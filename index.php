@@ -1,12 +1,13 @@
 <?php
-$title = "Velvet record";
-include './Views/header.php';
-require "./models/connexion_Bdd.php";
-
+$titre = "Velvet record";
+include $_SERVER['DOCUMENT_ROOT']."/Views/header.php";
+require $_SERVER['DOCUMENT_ROOT']."/models/connexion_Bdd.php";
 ?>
 
 
-<img src="./assets/img/vinil-record.png" alt="vinil-record">
+
+
+<a href="/Views/liste.php"><img src="./assets/img/vinil-record-end-2.png"  class="img_accueil" alt="vinil-record"></a>
 
 
 

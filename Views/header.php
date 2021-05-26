@@ -28,9 +28,7 @@ require $_SERVER['DOCUMENT_ROOT'].'/models/connexion_Bdd.php';
                 <li class="nav-item active">
                     <a class="nav-link" href="/Views/liste.php">Liste</a></li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/Views/formulaire_ajout.php">Ajouter</a></li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="/Views/form_modiff.php">Modification</a></li></ul>
+                    <a class="nav-link" href="/Views/formulaire_ajout.php">Ajouter</a></li></ul>
             <ul class="navbar-nav">
                 <li class="nav-item active ">
                     <a class="nav-link text-warning" ><?= $conex ?></a></li>

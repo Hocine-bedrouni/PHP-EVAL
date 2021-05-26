@@ -15,11 +15,8 @@ $disc = $result->fetch(PDO::FETCH_OBJ); // Renvoi de l'enregistrement sous forme
 ?>
 
 
-<form action ="..//atelier4/modele/script_modif.php" class="justify-content-center"method="post">
+<form action ="..//atelier4/modele/script_modif.php" class="form_act justify-content-center" method="post">
 
-    <div class="text-center">
-    <img src="../images/<?=$disc->disc_picture?>" width="300" alt="produit"> <!-- Pour ajouter la photo de couverture du cd : width="300 permet de redimensionner la photo et en n'indiquant qu'un seul paramètre le navigateur se charge de calculer le deuxième c'est à dire height en conservant les proportions de départ -->
-    </div>
 
     <label for="titre">Titre : </label>
     <input type="text"  name="titre" class="form-control" readonly placeholder="<?= $disc->disc_title; ?>"><br>
@@ -40,6 +37,12 @@ $disc = $result->fetch(PDO::FETCH_OBJ); // Renvoi de l'enregistrement sous forme
     <label for="nom">Prix :</label>
     <input type="text" required class="form-control" name="prix" readonly placeholder="<?= $disc->disc_price; ?>"><br>
 
+    <div class="text-center">
+        <label for="image">Image:</label>
+        <img src="../assets/img/<?=$disc->disc_picture?>" width="300" alt="image"> <!-- Pour ajouter la photo de couverture du cd : width="300 permet de redimensionner la photo et en n'indiquant qu'un seul paramètre le navigateur se charge de calculer le deuxième c'est à dire height en conservant les proportions de départ -->
+    </div><br>
+
+
 
     <div class="text-center">
         <!-- Quand on clique sur le bouton retour on affiche la liste -->
@@ -50,3 +53,8 @@ $disc = $result->fetch(PDO::FETCH_OBJ); // Renvoi de l'enregistrement sous forme
         <!-- Quand on clique sur le bouton supprimer on exécute le script du fichier sur lequel on fait un lien et on récupère l'ID avec ?pro_id=<?= $disc->disc_id?> -->
         <a href="../controllers/script_supp.php?disc_id=<?= $disc->disc_id?>" class="btn btn-danger m-0" onclick="return confirm('Etes-vous certain(e) de vouloir supprimer le produit ?')">Supprimer</a>
 
+    </div><br>
+
+<?php
+include 'footer.php';
+?>

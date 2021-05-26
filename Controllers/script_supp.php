@@ -2,7 +2,7 @@
 require "../models/connexion_Bdd.php";
 
 $requete = $db->prepare("DELETE FROM record.disc WHERE disc_id=:disc_id");
-$requete->bindValue(":disc_id", $_POST['disc_id']);
+$requete->bindValue(":disc_id", $_GET['disc_id']);
 $res = $requete->execute();
 
 

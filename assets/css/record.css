@@ -1,5 +1,84 @@
 div img{
     width: 250px !important;
-    /*height: 200px;*/
 
+}
+
+img.img_accueil{
+    padding-left: 500px;
+    margin-top: 100px;
+}
+
+body{
+    background-image: url("../img/fond13.jpg");
+    background-size: cover;
+}
+
+ #Titre{
+    /*text-transform: uppercase;*/
+    font-size: 20px;
+     font-variant: small-caps;
+    /*font-weight: bold;*/
+    color: #fcfdfd;
+}
+
+ #Artist{
+     font-size: 16px;
+     /*font-weight: bold;*/
+     color: #ffffff;
+ }
+
+span#Label{
+    font-size: 16px;
+    /*font-weight: bold;*/
+    color: #ffffff;
+}
+
+span#Annee{
+    font-size: 16px;
+    /*font-weight: bold;*/
+    color: #ffffff;
+}
+
+span#Genre{
+    font-size: 16px;
+    /*font-weight: bold;*/
+    color: #ffffff;
+}
+
+label, p{
+    color: #ffffff;
+    font-size: large;
+}
+H1{
+    color: #ffffff;
+}
+
+div.row{
+    width:72%;
+    padding-left: 20%;
+}
+
+div.form-group{
+    width:70%;
+    padding-left: 10%;
+}
+
+div.inser_img{
+    /*width:70%;*/
+    padding-left: 10%;
+}
+
+.form_act{
+    width:70%;
+    padding-left: 20%;
+}
+
+.pied_p{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.pochette{
+    width:70%;
+    padding-left: 20%;
 }

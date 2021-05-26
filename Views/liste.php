@@ -33,11 +33,14 @@ $count = $count_list->fetch();
             <span id="Artist"> <?= $val_list->artist_name?> </span>
             <span id="Label"> Label : <?= $val_list->disc_label?> </span>
             <span id="Annee" >Year: <?= $val_list->disc_year?> </span>
-            <span id=" Genre" class=" mb-5" > Genre: <?= $val_list->disc_genre?> </span>
+            <span id="Genre" class=" mb-5" > Genre: <?= $val_list->disc_genre?> </span>
             <div class="mt-5"><a class="btn btn-info align-self-end" href="../Views/detail.php?disc_id=<?= $val_list->disc_id?>">Détails</a></div>
         </div>
     </div>
     <?php } ?>
 </div>
-<!--</div>-->
+
+<?php
+include 'footer.php';
+?>
 

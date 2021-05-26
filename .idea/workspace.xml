@@ -1,62 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0bca7135-0053-4884-8411-acb8e2da8311" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PHP-EVAL.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/script_ajout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/script_modif.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controllers/script_supp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/form_modiff.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/formulaire_ajout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/record.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/After the Gold Rush.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Beggars Banquet.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Broken Arrow.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Dirt.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Drama.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Exile on main street.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Fugazi.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Fugazi3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Harvest Moon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Highway To Hell.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Initials BB.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Laboratory of sound.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/London Calling.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-1111653-1477834177-2042.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-1132211-1194645578.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-13492169-1555231827-6531.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-1659681-1296585791.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-3620609-1337675910-1871.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-400591-1537035829-1391.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-4888941-1378594981-3106.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-5123454-1385136477-5141.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-5465469-1426699812-2031.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-550471-1188388294.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-555810-1383700609-7372.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-5901497-1480017939-3016.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-630942-1433934037-6458.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-773262-1436716051-2703.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-7743449-1480717135-4992.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-8036492-1478290846-1434.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-913326-1172315286.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/R-981938-1437416361-3954.jpeg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Ragged Glory.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Rust Never Sleeps.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Songs for the Deaf.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Sticky Fingers.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Tattoo You.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Year of the Horse.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/rtr.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sdf.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+    <list default="true" id="0bca7135-0053-4884-8411-acb8e2da8311" name="Default Changelist" comment="eval php suite">
+      <change afterPath="$PROJECT_DIR$/Controllers/formcontrol.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/validForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/30.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/vinil-record-end-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phpinfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/162645dd-465f-4479-95c7-9ec6aaacd99a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/162645dd-465f-4479-95c7-9ec6aaacd99a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/162645dd-465f-4479-95c7-9ec6aaacd99a/storage_v2/_src_/schema/hotel.tMHtBQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/162645dd-465f-4479-95c7-9ec6aaacd99a/storage_v2/_src_/schema/hotel.tMHtBQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/162645dd-465f-4479-95c7-9ec6aaacd99a/storage_v2/_src_/schema/hotel.tMHtBQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/162645dd-465f-4479-95c7-9ec6aaacd99a/storage_v2/_src_/schema/hotel.tMHtBQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/script_ajout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/script_ajout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/script_modif.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/script_modif.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/script_supp.php" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/script_supp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/form_modiff.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form_modiff.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/formulaire_ajout.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/formulaire_ajout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/liste.php" beforeDir="false" afterPath="$PROJECT_DIR$/Views/liste.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/record.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/record.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Drama.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Exile on main street.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/connexion_Bdd.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/connexion_Bdd.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +48,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
   <component name="ProjectId" id="1semPHBFeKz9Dmk92ESucySOTSa" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -111,8 +80,38 @@
       <workItem from="1621247685572" duration="3000" />
       <workItem from="1621495105695" duration="143000" />
       <workItem from="1621495260541" duration="405000" />
-      <workItem from="1621495675438" duration="23392000" />
+      <workItem from="1621495675438" duration="23556000" />
+      <workItem from="1622013776305" duration="23944000" />
     </task>
+    <task id="LOCAL-00001" summary="travaux eval-php">
+      <created>1621522713423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621522713423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="travaux eval-php">
+      <created>1621522727699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621522727699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="travaux eval-php">
+      <created>1621522774234</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621522774234</updated>
+    </task>
+    <task id="LOCAL-00004" summary="travaux eval-php">
+      <created>1621522781046</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621522781046</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +131,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="travaux eval-php" />
+    <option name="LAST_COMMIT_MESSAGE" value="travaux eval-php" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/controllers/formcontrol.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
